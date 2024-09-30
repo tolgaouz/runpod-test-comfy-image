@@ -1,0 +1,13 @@
+runpod:
+  base_path: /runpod-volume/models
+  animatediff_models: animatediff_models
+  checkpoints: checkpoints
+  clip_vision: clip_vision
+  controlnet: controlnet
+  ipadapter: ipadapter
+  loras: loras
+  upscale_models: upscale_models
+  vae: vae
+  BiRefNet: BiRefNet
+  diffusers: diffusers
+  mimicmotion: mimicmotion
