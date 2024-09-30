@@ -12,6 +12,8 @@ COPY ./comfy_snapshot.json ./snapshot.json
 
 COPY ./load_snapshot.py .
 
+COPY ./handler.py .
+
 COPY ./extra_model_paths.yaml ./ComfyUI/extra_model_paths.yaml
 RUN python load_snapshot.py
 
